@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #d3f12b, #f13030);
+}
+
+.music-player {
+    text-align: center;
+}
+
+.album-cover {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 10px solid;
+}  
+
+.controls button {
+    font-size: 40px;
+}
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
